@@ -4,6 +4,7 @@ import Widget from '../src/components/Widget'
 import QuizBackground from '../src/components/QuizBackground'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
+import Head from 'next/head'
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -19,10 +20,27 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
+      <Head>
+        <title>AluraQuiz</title>
+        <meta name="title" content="AluraQuiz" />
+        <meta name="description" content="Quiz about something" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://aluraquiz.alnun.vercel.app/" />
+        <meta property="og:title" content="AluraQuiz" />
+        <meta property="og:description" content="Quiz about something" />
+        <meta property="og:image" content={db.bg} />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://aluraquiz.alnun.vercel.app/" />
+        <meta property="twitter:title" content="AluraQuiz" />
+        <meta property="twitter:description" content="Quiz about something" />
+        <meta property="twitter:image" content={db.bg} />
+      </Head>
       <QuizContainer>
         <Widget>
           <Widget.Header>
-            <h1>The Legend of Zelda</h1>
+            <h1>AluraQuiz</h1>
           </Widget.Header>
           <Widget.Content>
             <p>lorem ipsum dolor sit amet ...</p>
