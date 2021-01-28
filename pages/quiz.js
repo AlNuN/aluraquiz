@@ -23,7 +23,7 @@ function ResultWidget({ results }) {
   return (
     <Widget>
       <Widget.Header>
-        Tela de Resultado
+        Resultado
       </Widget.Header>
 
       <Widget.Content>

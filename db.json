@@ -1,28 +1,84 @@
 {
-  "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-  "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "bg": "https://i.imgur.com/7A9xh4j.jpg",
+  "title": "ViolaQuiz",
+  "description": "Teste os seus conhecimentos sobre violão",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "image": "https://media.giphy.com/media/3bgFvn00K0zW8/giphy.gif",
+      "title": "Qual a afinação padrão do violão de baixo para cima?",
       "description": "Essa é pra aquecer",
-      "answer": 2,
+      "answer": 3,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "E-A-D-G-B-E",
+        "Eb–Ab–Db–Gb–Bb–Eb",
+        "D-G-D-G-B-D",
+        "E-B-G-D-A-E",
+        "D – A – D –  G – B – E"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
+      "image": "https://media.giphy.com/media/JNMFUwShabBUQ/giphy.gif",
+      "title": "Qual o nome das peças metálicas que separam as casas do braço do violão?",
       "description": "Faz tempo em haha",
-      "answer": 0,
+      "answer": 2,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "Inútil",
+         "Imprestável",
+         "Traste",
+         "Tratante",
+         "Peça"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/jOP8IR4YWVvYENbpF4/giphy.gif",
+      "title": "Qual o nome das duas peças, comumente feitas de osso que ajudam a tensionar as cordas do violão?",
+      "description": "Cuidado pra não confundir, ein?",
+      "answer": 1,
+      "alternatives": [
+         "Tarraxas e caixa acústica",
+         "Rastilho e pestana",
+         "Pestana e traste",
+         "Cavalete e rastilho",
+         "Mão e cavalete"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/SvL7LA1cCAW9ximYN4/giphy.gif",
+      "title": "Para afinar o violão você certamente precisará girar um(a)",
+      "description": "",
+      "answer": 4,
+      "alternatives": [
+         "Taxa",
+         "Quilha",
+         "Natasha",
+         "Mão",
+         "Tarraxa"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/RhrAmVUHxjTQvEPBWi/giphy.gif",
+      "title": "Uma forma fácil de mudar a tonalidade de um violão, encurtando as cordas, é usando um(a)",
+      "description": "",
+      "answer": 1,
+      "alternatives": [
+         "Traste",
+         "Capotraste",
+         "Palheta",
+         "Corda",
+         "Afinador"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/tJU72w9lPzUPe/giphy.gif",
+      "title": "A primeira guitarra elétrica de corpo sólido lançada no mercado por Leo Fender em 1949 foi a:",
+      "description": "",
+      "answer": 4,
+      "alternatives": [
+         "Gibson Les Paul",
+         "Fender Estratocaster",
+         "Telecaster",
+         "Folk",
+         "Fender Esquire"
       ]
     }
   ],
