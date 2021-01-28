@@ -19,27 +19,27 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>AluraQuiz</title>
-        <meta name="title" content="AluraQuiz" />
-        <meta name="description" content="Quiz about something" />
+        <title>{db.title}</title>
+        <meta name="title" content={db.title} />
+        <meta name="description" content={db.description} />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://aluraquiz.alnun.vercel.app/" />
-        <meta property="og:title" content="AluraQuiz" />
-        <meta property="og:description" content="Quiz about something" />
+        <meta property="og:title" content={db.title} />
+        <meta property="og:description" content={db.description} />
         <meta property="og:image" content={db.bg} />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://aluraquiz.alnun.vercel.app/" />
-        <meta property="twitter:title" content="AluraQuiz" />
-        <meta property="twitter:description" content="Quiz about something" />
+        <meta property="twitter:title" content={db.title} />
+        <meta property="twitter:description" content={db.description} />
         <meta property="twitter:image" content={db.bg} />
       </Head>
       <QuizContainer>
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>AluraQuiz</h1>
+            <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={(evento) => {
