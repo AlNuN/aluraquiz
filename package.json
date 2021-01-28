@@ -9,6 +9,7 @@
     "lint": "eslint ./ --fix"
   },
   "dependencies": {
+    "@svgr/webpack": "^5.5.0",
     "next": "latest",
     "prop-types": "^15.7.2",
     "react": "^16.8.0",
