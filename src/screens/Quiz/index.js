@@ -23,7 +23,8 @@ function ResultWidget({ results }) {
   return (
     <Widget>
       <Widget.Header>
-        Resultado
+        <BackLinkArrow href="/" />
+        <h2>Resultado</h2>
       </Widget.Header>
 
       <Widget.Content>
@@ -132,6 +133,7 @@ function QuestionWidget({
                   name={questionId}
                   type="radio"
                   onChange={() => setSelectedAlternative(alternativeIndex)}
+                  checked={isSelected}
                 />
                 {alternative}
               </Widget.Topic>
