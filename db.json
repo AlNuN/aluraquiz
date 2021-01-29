@@ -45,7 +45,7 @@
     {
       "image": "https://media.giphy.com/media/SvL7LA1cCAW9ximYN4/giphy.gif",
       "title": "Para afinar o violão você certamente precisará girar um(a)",
-      "description": "",
+      "description": "Vê se não vai desafinar",
       "answer": 4,
       "alternatives": [
          "Taxa",
@@ -58,7 +58,7 @@
     {
       "image": "https://media.giphy.com/media/RhrAmVUHxjTQvEPBWi/giphy.gif",
       "title": "Uma forma fácil de mudar a tonalidade de um violão, encurtando as cordas, é usando um(a)",
-      "description": "",
+      "description": "Apertou aí?",
       "answer": 1,
       "alternatives": [
          "Traste",
@@ -71,14 +71,66 @@
     {
       "image": "https://media.giphy.com/media/tJU72w9lPzUPe/giphy.gif",
       "title": "A primeira guitarra elétrica de corpo sólido lançada no mercado por Leo Fender em 1949 foi a:",
-      "description": "",
+      "description": "🧐",
       "answer": 4,
       "alternatives": [
          "Gibson Les Paul",
-         "Fender Estratocaster",
+         "Fender Stratocaster",
          "Telecaster",
          "Folk",
          "Fender Esquire"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/3o7TKGaFIUsPIIn26Y/giphy.gif",
+      "title": "Objeto utilizado para auxiliar a tanger as cordas de um violão",
+      "description": "Só não vale perder o ritmo!",
+      "answer": 0,
+      "alternatives": [
+         "Palheta",
+         "Paleta",
+         "Capo",
+         "Tampo",
+         "Braço"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/J1XPgsiD4QQ4WsVyKG/giphy.gif",
+      "title": "Uma curta melodia realizada geralmente com o dedão, muito comum no chorinho",
+      "description": "😶",
+      "answer": 2,
+      "alternatives": [
+         "Compasso",
+         "Solo",
+         "Baixaria",
+         "Acompanhamento",
+         "Funk"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/l2YWC6RUTAzNBLj56/giphy.gif",
+      "title": "Concavidade na caixa acústica que facilita o acesso às casas mais agudas",
+      "description": "Muita calma nessa hora!",
+      "answer": 4,
+      "alternatives": [
+         "Quilha",
+         "Boca",
+         "Concavidade",
+         "Escudo",
+         "Cutaway"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/26xBuukpVeWNp0Zpe/giphy.gif",
+      "title": "Parte decorativa, mas que também protege a boca",
+      "description": "🌹",
+      "answer": 1,
+      "alternatives": [
+         "Casa",
+         "Roseta",
+         "Quilha",
+         "Faixa lateral",
+         "Escala"
       ]
     }
   ],
