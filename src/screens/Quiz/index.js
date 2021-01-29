@@ -10,7 +10,7 @@ import QuizContainer from '../../components/QuizContainer';
 import Button from '../../components/Button';
 import AlternativesForm from '../../components/AlternativesForm';
 import BackLinkArrow from '../../components/BackLinkArrow';
-import LoadingSVG from '../../assets/img/831.svg';
+import LoadingSVG from '../../../public/static/pinwheel.svg';
 
 const StyledLoadingSVG = styled(LoadingSVG)`
   margin-left: 75px;
@@ -58,7 +58,6 @@ function LoadingWidget() {
 
       <Widget.Content>
         <StyledLoadingSVG />
-        {/* <img src={loadingSVG} alt="loading animation" /> */}
       </Widget.Content>
     </Widget>
   );
