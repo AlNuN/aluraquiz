@@ -10,10 +10,10 @@
       "answer": 3,
       "alternatives": [
         "E-A-D-G-B-E",
-        "Eb–Ab–Db–Gb–Bb–Eb",
+        "Eb-Ab-Db-Gb-Bb-Eb",
         "D-G-D-G-B-D",
         "E-B-G-D-A-E",
-        "D – A – D –  G – B – E"
+        "D-A-D-G-B-E"
       ]
     },
     {
@@ -83,7 +83,9 @@
     }
   ],
   "external": [
-    ""
+    "https://quiz-react.brenoha.vercel.app/",
+    "https://aluraquizpokemon.cesarrobertopg.vercel.app/",
+    "https://lolzinquiz-git-main.bernardooficial.vercel.app/"
   ],
   "theme": {
     "colors": {
